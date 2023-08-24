@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav id="nav">
+      <h3>Company</h3>
+
+      <div class="links">
+        <a href="#services"><span>Services</span></a>
+
+        <a href="#about"><span>About</span></a>
+
+        <a href="#pricing"><span>Pricing</span></a>
+
+        <a href="#videoConf"><span>I don't know</span></a>
+
+        <a href="#contact"><span>Contact</span></a>
+
+        <button>Let's get started!</button>
+      </div>
+
+      <div class="hamburger" onclick="nav();">
+        <div class="line line1"></div>
+
+        <div class="line line2"></div>
+
+        <div class="line line3"></div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="landing" id="landing">
+        <div class="text slide-in">
+          <div class="inner">
+            <h3>Company</h3>
+            <p id="consulting">whatever you do 📊📔</p>
+
+            <div class="buttons">
+              <button>Let's get started!</button>
+
+              <button class="secondary">View demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="media slide-in">
+          <img
+            src="media/corporate-images/DOTaskit.png"
+            class="slide-in"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="trusted"
+        viewBox="0 0 1440 800"
+        width="1440"
+        height="500"
+        version="1.1"
+        preserveAspectRatio="none"
+        style="
+          background-image: linear-gradient(
+            to bottom,
+            #1c1c1c 80%,
+            #e79215 20%
+          );
+        "
+      >
+        <path
+          d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
+          fill="#e79215"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        />
+      </svg>
+
+      <section class="trusted">
+        <div class="inner">
+          <h2>Trusted by</h2>
+
+          <div class="brands">
+            <img src="media/brands/google.png" class="slide-in" alt="" />
+
+            <img src="media/brands/apple.png" class="slide-in" alt="" />
+
+            <img src="media/brands/netflix.png" class="slide-in" alt="" />
+
+            <img src="media/brands/spotify.png" class="slide-in" alt="" />
+
+            <img src="media/brands/nike.png" class="slide-in" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="what"
+        viewBox="0 0 1440 800"
+        width="1440"
+        height="500"
+        version="1.1"
+        preserveAspectRatio="none"
+        style="
+          background-image: linear-gradient(to top, #1c1c1c 80%, #e79215 20%);
+        "
+      >
+        <path
+          d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
+          fill="#e79215"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        />
+      </svg>
+
+      <section class="what">
+        <div class="media slide-in">
+          <img src="media/corporate-images/what.png" alt="" />
+        </div>
+
+        <div class="text slide-in">
+          <h2>What we are</h2>
+
+          <p><b>Company</b> bla bla bla bla</p>
+
+          <p>bla bla bla</p>
+          <p>At <b>Company </b>, marvelous things happen. bla bla bla</p>
+        </div>
+      </section>
+
+      <!--	<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="400" viewBox="0 0 1440 205" fill="none" class="transition top">
+				<g clip-path="url(#clip0_128_35)">
+					<path d="M0 119L60 127.8C120 136.7 240 154.3 360 146.3C480 138.3 600 104.7 720 71.5001C840 38.3001 960 5.70006 1080 1.00006C1200 -3.69994 1320 19.7 1380 31.3L1440 43.0001V330H1380C1320 330 1200 330 1080 330C960 330 840 330 720 330C600 330 480 330 360 330C240 330 120 330 60 330H0V119Z" fill="#E6E7EB"/>
+				</g>
+			</svg>-->
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="services"
+        viewBox="0 0 1440 800"
+        width="1440"
+        height="500"
+        version="1.1"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
+          fill="#262626"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        />
+      </svg>
+
+      <section class="services" id="services">
+        <h2>Services</h2>
+
+        <p>Our amazing tools for achieving maximum productivity.</p>
+
+        <div class="container">
+          <div class="inner">
+            <div class="service slide-in">
+              <h4>Calendar</h4>
+
+              <img src="media/icons/calendar.png" alt="" />
+
+              <p>
+                With our well-designed calendar, keep track of all your
+                meetings, deadlines, reminders all in one spot.
+              </p>
+            </div>
+
+            <div class="service slide-in">
+              <h4>Packages</h4>
+
+              <img src="media/icons/packages.png" alt="" />
+
+              <p>
+                Packages contain the neccessary framework to get what needs to
+                be done...done!
+              </p>
+            </div>
+
+            <div class="service slide-in">
+              <h4>Analytics</h4>
+
+              <img src="media/icons/analytics.png" alt="" />
+
+              <p>
+                All your analytics are securely stored with a dashboard where
+                you can view your data easily.
+              </p>
+            </div>
+          </div>
+
+          <div class="inner">
+            <div class="service slide-in">
+              <h4>Knowledge</h4>
+
+              <img src="media/icons/knowledge.png" alt="" />
+
+              <p>All our tools and services know bla bla bla</p>
+            </div>
+
+            <div class="service slide-in">
+              <h4>Time</h4>
+
+              <img src="media/icons/time.png" alt="" />
+
+              <p>
+                We know time and deadlines are important, so that's why any
+                action you take with us is speedy and fast.
+              </p>
+            </div>
+
+            <div class="service slide-in">
+              <h4>Travel</h4>
+
+              <img src="media/icons/travel.png" alt="" />
+
+              <p>
+                Need to work on the go? No problem! All you need will be adapted
+                to fit your needs and function wherever you are.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="400" viewBox="0 0 1440 213" fill="none" class="transition bottom">
+				<path d="M0 213L60 197.8C120 182.7 240 152.3 360 135C480 117.7 600 113.3 720 128.5C840 143.7 960 178.3 1080 181.2C1200 184 1320 155 1380 140.5L1440 126V0H1380C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0H0V213Z" fill="#E6E7EB"/>
+			</svg>-->
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="testimonials"
+        viewBox="0 0 1440 800"
+        width="1440"
+        height="500"
+        version="1.1"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
+          fill="#262626"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        />
+      </svg>
+
+      <section class="testimonials">
+        <div class="text">
+          <h2>Testimonials</h2>
+
+          <p>What people are saying.</p>
+        </div>
+
+        <div class="container">
+          <div class="testimonial">
+            <div class="person">
+              <div class="inner">
+                <img src="media/people/john.png" alt="" />
+              </div>
+
+              <div class="name">
+                <h4>Someone</h4>
+
+                <h5>profession</h5>
+              </div>
+            </div>
+
+            <p>bla bla bla put some text and change names/pfp</p>
+          </div>
+
+          <div class="testimonial slide-in">
+            <div class="person">
+              <div class="inner">
+                <img src="media/people/jane.png" alt="" />
+              </div>
+
+              <div class="name">
+                <h4>Someone</h4>
+
+                <h5>profession</h5>
+              </div>
+            </div>
+
+            <p>bla bla bla put some text and change names/pfp</p>
+          </div>
+
+          <div class="testimonial slide-in">
+            <div class="person">
+              <div class="inner">
+                <img src="media/people/julia.png" alt="" />
+              </div>
+
+              <div class="name">
+                <h4>Someone</h4>
+
+                <h5>profession</h5>
+              </div>
+            </div>
+
+            <p>bla bla bla put some text and change names/pfp</p>
+          </div>
+        </div>
+
+        <img
+          src="media/corporate-images/testimonials.png"
+          class="slide-in"
+          alt=""
+        />
+      </section>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="values"
+        viewBox="0 0 1440 800"
+        width="1440"
+        height="500"
+        version="1.1"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
+          fill="#262626"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        />
+      </svg>
+
+      <section class="values">
+        <div class="left">
+          <div class="value slide-in">
+            <img src="media/icons/earth.png" alt="" />
+
+            <div class="text">
+              <h4>No Idea</h4>
+
+              <p>bla bla bla</p>
+            </div>
+          </div>
+
+          <div class="value slide-in">
+            <img src="media/icons/security.png" alt="" />
+
+            <div class="text">
+              <h4>Security</h4>
+
+              <p>Secure, end-to-end encrypted data.</p>
+            </div>
+          </div>
+
+          <div class="value slide-in">
+            <img src="media/icons/peace-of-mind.png" alt="" />
+
+            <div class="text">
+              <h4>Peace of mind</h4>
+
+              <p>
+                Rest easy knowing all your problems are being taken care of.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right slide-in">
+          <h1>Values</h1>
+
+          <p>
+            At <b>Company</b>, we strive to deliver our best performance to you.
+          </p>
+
+          <button>Learn more</button>
+        </div>
+      </section>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="about"
+        viewBox="0 0 1440 800"
+        width="1440"
+        height="500"
+        version="1.1"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
+          fill="#262626"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        />
+      </svg>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="text slide-in">
+            <h2>About us</h2>
+
+            <p>bla bla bla 1</p>
+
+            <p>bla bla bla 2</p>
+
+            <p>bla bla bla 3</p>
+          </div>
+
+          <div class="media slide-in">
+            <img src="media/corporate-images/about.png" alt="" />
+          </div>
+        </div>
+
+        <button>Learn more</button>
+      </section>
+    </main>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="visual"
+      viewBox="0 0 1440 800"
+      width="1440"
+      height="500"
+      version="1.1"
+      preserveAspectRatio="none"
+      style="
+        background-image: linear-gradient(to bottom, #1c1c1c 80%, #e79215 20%);
+      "
+    >
+      <path
+        d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
+        fill=" #e79215"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+      />
+    </svg>
+
+    <section class="pricing" id="pricing">
+      <h2>Pricing</h2>
+
+      <p>Different plans to bla bla bla</p>
+
+      <div class="plans">
+        <div class="outer slide-in">
+          <div class="plan best">
+            <img src="media/corporate-images/pro.png" alt="" />
+            <br />
+            <div class="bottom">
+              <h4>Services</h4>
+              <br />
+              <div class="checkbox-container">
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option1" value="10" />
+                    <span>Option 1</span>
+                    <span class="option-value">$10</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 1</small>
+                  </div>
+                </label>
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option2" value="20" />
+                    <span>Option 2</span>
+                    <span class="option-value">$20</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 2</small>
+                  </div>
+                </label>
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option3" value="30" />
+                    <span>Option 3</span>
+                    <span class="option-value">$30</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 3</small>
+                  </div>
+                </label>
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option4" value="40" />
+                    <span>Option 4</span>
+                    <span class="option-value">$40</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 4</small>
+                  </div>
+                </label>
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option5" value="50" />
+                    <span>Option 5</span>
+                    <span class="option-value">$50</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 5</small>
+                  </div>
+                </label>
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option6" value="60" />
+                    <span>Option 6</span>
+                    <span class="option-value">$60</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 6</small>
+                  </div>
+                </label>
+                <label>
+                  <div class="checkbox-title">
+                    <input type="checkbox" name="option7" value="70" />
+                    <span>Option 7</span>
+                    <span class="option-value">$70</span>
+                  </div>
+                  <div class="checkbox-description">
+                    <small>Description of option 7</small>
+                  </div>
+                </label>
+                <!-- Add more options as needed -->
+              </div>
+              <div class="total-container">
+                <p>Total:</p>
+                <p>
+                  <span class="dollar">$</span
+                  ><span class="total-amount">0</span
+                  ><span class="month">/mo</span> <br />
+                  <button class="pay-btn">Pay</button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="finance"
+      viewBox="0 0 1440 800"
+      width="1440"
+      height="500"
+      version="1.1"
+      preserveAspectRatio="none"
+      style="
+        background-image: linear-gradient(to top, #1c1c1c 80%, #e79215 20%);
+      "
+    >
+      <path
+        d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
+        fill=" #e79215"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+      />
+    </svg>
+
+    <section class="finance">
+      <div class="media slide-in">
+        <img src="media/corporate-images/finance.png" alt="" />
+      </div>
+
+      <div class="text slide-in">
+        <h2>Finance or something else</h2>
+
+        <p>bla bla bla long</p>
+
+        <p>bla bla bla short</p>
+
+        <div class="buttons">
+          <button>I don't know</button>
+          <button class="secondary">I don't know</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="container">
+        <div class="stat slide-in">
+          <img src="media/icons/sales.png" alt="" />
+
+          <h4>Sales</h4>
+
+          <p>bla bla bla short</p>
+        </div>
+
+        <div class="stat slide-in">
+          <img src="media/icons/cashback.png" alt="" />
+
+          <h4>Cashback</h4>
+
+          <p>bla bla bla short</p>
+        </div>
+
+        <div class="stat slide-in">
+          <img src="media/icons/savings.png" alt="" />
+
+          <h4>Savings</h4>
+
+          <p>bla bla bla short</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="videoConf" id="videoConf">
+      <div class="text slide-in">
+        <div class="inner">
+          <h2>I don't know</h2>
+        </div>
+
+        <p>bla bla bla long</p>
+
+        <div class="buttons">
+          <button>I don't know</button>
+
+          <button class="secondary">I don't know</button>
+        </div>
+      </div>
+      <div class="media slide-in">
+        <img src="media/corporate-images/videoConf.png" alt="" />
+      </div>
+    </section>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="visual"
+      viewBox="0 0 1440 800"
+      width="1440"
+      height="500"
+      version="1.1"
+      preserveAspectRatio="none"
+      style="
+        background-image: linear-gradient(to bottom, #1c1c1c 80%, #2d2928 20%);
+      "
+    >
+      <path
+        d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
+        fill=" #2d2928"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+      />
+    </svg>
+
+    <section class="ready" id="ready">
+      <h2>Ready to promote your business today?</h2>
+
+      <p>Start now with <b>Company</b>.</p>
+
+      <img src="media/corporate-images/ready.png" class="slide-in" alt="" />
+
+      <div class="buttons">
+        <button>Let's get started</button>
+
+        <button class="secondary">View demo</button>
+      </div>
+    </section>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="contact"
+      viewBox="0 0 1440 800"
+      width="1440"
+      height="500"
+      version="1.1"
+      preserveAspectRatio="none"
+      style="
+        background-image: linear-gradient(to top, #1c1c1c 80%, #2d2928 20%);
+      "
+    >
+      <path
+        d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
+        fill="#2d2928"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+      />
+    </svg>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+
+      <p>Leave a message below to get in touch.</p>
+
+      <div class="container">
+        <form action="https://formspree.io/fdt/xdovpnlz" method="POST">
+          <div class="name">
+            <input
+              type="text"
+              id="first-name"
+              name="First Name:"
+              placeholder="First name"
+              required
+            />
+
+            <input
+              type="text"
+              id="second-name"
+              name="Second Name:"
+              placeholder="Last name"
+              required
+            />
+          </div>
+
+          <input
+            type="text"
+            id="email"
+            name="Email:"
+            placeholder="Email"
+            required
+          />
+
+          <textarea
+            id="message"
+            name="Message:"
+            placeholder="How can we help you"
+            required
+          ></textarea>
+
+          <button type="submit" id="btn">Send</button>
+        </form>
+
+        <img src="media/corporate-images/contact.png" alt="" />
+      </div>
+    </section>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="visual"
+      viewBox="0 0 1440 800"
+      width="1440"
+      height="500"
+      version="1.1"
+      preserveAspectRatio="none"
+      style="
+        background-image: linear-gradient(to bottom, #1c1c1c 80%, #2d2928 20%);
+      "
+    >
+      <path
+        d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
+        fill="#2d2928"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+      />
+    </svg>
+
+    <footer>
+      <div class="column">
+        <h1>Company</h1>
+
+        <p>Some slogan</p>
+      </div>
+
+      <div class="column second">
+        <div class="inner">
+          <h4>About</h4>
+
+          <a href="#trusted"><span>Trusted by</span></a>
+
+          <a href="#values"><span>Values</span></a>
+
+          <a href="#about"><span>About us</span></a>
+        </div>
+
+        <div class="inner">
+          <h4>Legal</h4>
+
+          <a href=""><span>Terms and conditions</span></a>
+
+          <a href=""><span>Privacy policy</span></a>
+        </div>
+      </div>
+
+      <div class="column">
+        <h4>Product</h4>
+
+        <a href="#what"><span>What</span></a>
+
+        <a href="#services"><span>Services</span></a>
+
+        <a href="#pricing"><span>Pricing</span></a>
+
+        <a href="#finance"><span>Finance</span></a>
+
+        <a href="#stats"><span>Stats</span></a>
+
+        <div class="container">
+          <a href="#videoConf"><span>I don't know</span></a>
+        </div>
+      </div>
+
+      <div class="column">
+        <h4>Social</h4>
+
+        <a href="#testimonials"><span>Testimonials</span></a>
+
+        <a href=""><span>Twitter</span></a>
+
+        <a href=""><span>Facebook</span></a>
+
+        <a href=""><span>Instagram</span></a>
+
+        <a href=""><span>LinkedIn</span></a>
+      </div>
+
+      <div class="column">
+        <button>Let's get started!</button>
+
+        <button class="secondary">I don't know</button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
