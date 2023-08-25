@@ -5,9 +5,9 @@
   --background-primary: #1c1c1c;
   --background-secondary: #262626; /* Adjusted for better contrast */
 
-  --accent-primary: #e79215;
-  --accent-primary-hover: #f4a83a;
-  --accent-primary-click: #d68412;
+  --accent-primary: #1b4f5a;
+  --accent-primary-hover: #1c7688;
+  --accent-primary-click: #1e7b8e;
   --accent-secondary: #2d2928;
   --accent-secondary-hover: #4b4746;
   --accent-secondary-click: #1f1d1c;
@@ -111,6 +111,7 @@ a {
 a:hover span {
   color: var(--accent-primary-hover);
   border-bottom: 1px solid var(--accent-primary-hover);
+  transition: 2ms;
 }
 
 button {
@@ -414,22 +415,6 @@ svg {
   gap: 50px;
 }
 
-.what {
-  flex-direction: row;
-}
-
-.what > * {
-  width: 50%;
-}
-
-.what .text {
-  text-align: right;
-}
-
-.what .media img {
-  width: 100%;
-}
-
 .services {
   background: var(--background-secondary);
 }
@@ -681,7 +666,7 @@ svg {
 }
 
 .pricing .plans .plan.regular button:hover {
-  background: #f1f1f1;
+  background: #37565d;
 }
 
 .pricing .plans .plan.regular button:active {
@@ -784,7 +769,7 @@ svg {
 }
 
 .ready .buttons .secondary:hover {
-  background: #f1f1f1;
+  background: #37565d;
 }
 
 .ready .buttons .secondary:active {
@@ -866,7 +851,7 @@ footer button.secondary {
 }
 
 footer button.secondary:hover {
-  background: #f1f1f1;
+  background: #37565d;
 }
 
 footer button.secondary:active {
@@ -980,10 +965,6 @@ footer button.secondary:active {
   .trusted .inner .brands {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .what .text {
-    text-align: center;
   }
 
   .services .container .inner {
