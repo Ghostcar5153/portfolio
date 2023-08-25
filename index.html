@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Company</title>
+    <title>Ghostcar5153</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <nav id="nav">
-      <h3>Company</h3>
+      <h3>Ghostcar5153</h3>
 
       <div class="links">
+        <a href="#landing"><span>Home</span></a>
+
         <a href="#services"><span>Services</span></a>
 
         <a href="#about"><span>About</span></a>
@@ -21,8 +23,6 @@
         <a href="#videoConf"><span>I don't know</span></a>
 
         <a href="#contact"><span>Contact</span></a>
-
-        <button>Let's get started!</button>
       </div>
 
       <div class="hamburger" onclick="nav();">
@@ -38,23 +38,19 @@
       <section class="landing" id="landing">
         <div class="text slide-in">
           <div class="inner">
-            <h3>Company</h3>
-            <p id="consulting">whatever you do 📊📔</p>
+            <h2>I'm Ghostcar5153</h2>
+            <p id="consulting">Welcome to my portfolio</p>
 
             <div class="buttons">
-              <button>Let's get started!</button>
+              <button><a href="#about">About Me</a></button>
 
-              <button class="secondary">View demo</button>
+              <button class="secondary"><a href="#contact">Contact</a></button>
             </div>
           </div>
         </div>
 
         <div class="media slide-in">
-          <img
-            src="media/corporate-images/DOTaskit.png"
-            class="slide-in"
-            alt=""
-          />
+          <img src="./icon.png" class="slide-in" alt="" />
         </div>
       </section>
 
@@ -71,13 +67,13 @@
           background-image: linear-gradient(
             to bottom,
             #1c1c1c 80%,
-            #e79215 20%
+            #1b4f5a 20%
           );
         "
       >
         <path
           d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
-          fill="#e79215"
+          fill="#1b4f5a"
           stroke-linecap="round"
           stroke-linejoin="miter"
         />
@@ -85,7 +81,7 @@
 
       <section class="trusted">
         <div class="inner">
-          <h2>Trusted by</h2>
+          <h2>Proficient Languages</h2>
 
           <div class="brands">
             <img src="media/brands/google.png" class="slide-in" alt="" />
@@ -104,36 +100,45 @@
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        id="what"
+        id="about"
         viewBox="0 0 1440 800"
         width="1440"
         height="500"
         version="1.1"
         preserveAspectRatio="none"
         style="
-          background-image: linear-gradient(to top, #1c1c1c 80%, #e79215 20%);
+          background-image: linear-gradient(to top, #1c1c1c 80%, #1b4f5a 20%);
         "
       >
         <path
           d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
-          fill="#e79215"
+          fill="#1b4f5a"
           stroke-linecap="round"
           stroke-linejoin="miter"
         />
       </svg>
 
-      <section class="what">
-        <div class="media slide-in">
-          <img src="media/corporate-images/what.png" alt="" />
-        </div>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="text slide-in">
+            <h2>About Me</h2>
 
-        <div class="text slide-in">
-          <h2>What we are</h2>
+            <p>
+              Hi there, I'm Ghostcar5153 – a programmer, web developer, and
+              software enthusiast. With a fervor for coding and a deep
+              appreciation for JavaScript, I've been on a journey of continuous
+              learning and growth. Whether it's mastering new languages or
+              crafting elegant solutions to intricate challenges, I'm all about
+              pushing boundaries. Join me as I explore the dynamic world of
+              programming and turn lines of code into captivating digital
+              experiences. If you're reading this beyond 2023, know that my
+              passion has only grown stronger with time.
+            </p>
+          </div>
 
-          <p><b>Company</b> bla bla bla bla</p>
-
-          <p>bla bla bla</p>
-          <p>At <b>Company </b>, marvelous things happen. bla bla bla</p>
+          <div class="media slide-in">
+            <img src="media/corporate-images/about.png" alt="" />
+          </div>
         </div>
       </section>
 
@@ -164,73 +169,67 @@
       <section class="services" id="services">
         <h2>Services</h2>
 
-        <p>Our amazing tools for achieving maximum productivity.</p>
+        <p>Boosting Your Productivity with Our Tools.</p>
 
         <div class="container">
           <div class="inner">
             <div class="service slide-in">
-              <h4>Calendar</h4>
+              <h4>Coding Assistance</h4>
 
               <img src="media/icons/calendar.png" alt="" />
 
-              <p>
-                With our well-designed calendar, keep track of all your
-                meetings, deadlines, reminders all in one spot.
-              </p>
+              <p>Get help for debugging, optimization, and implementation.</p>
             </div>
 
             <div class="service slide-in">
-              <h4>Packages</h4>
+              <h4>Development Packages</h4>
 
               <img src="media/icons/packages.png" alt="" />
 
               <p>
-                Packages contain the neccessary framework to get what needs to
-                be done...done!
+                Accelerate projects with curated packages containing essential
+                frameworks and tools.
               </p>
             </div>
 
             <div class="service slide-in">
-              <h4>Analytics</h4>
+              <h4>Data Analytics</h4>
 
               <img src="media/icons/analytics.png" alt="" />
 
               <p>
-                All your analytics are securely stored with a dashboard where
-                you can view your data easily.
+                Explore insights effortlessly with secure analytics and a
+                user-friendly dashboard.
               </p>
             </div>
           </div>
 
           <div class="inner">
             <div class="service slide-in">
-              <h4>Knowledge</h4>
+              <h4>Programming Insights</h4>
 
               <img src="media/icons/knowledge.png" alt="" />
 
-              <p>All our tools and services know bla bla bla</p>
+              <p>
+                Unlock expertise and enhance programming skills with insights,
+                tips, and best practices.
+              </p>
             </div>
 
             <div class="service slide-in">
-              <h4>Time</h4>
+              <h4>Time Optimization</h4>
 
               <img src="media/icons/time.png" alt="" />
 
-              <p>
-                We know time and deadlines are important, so that's why any
-                action you take with us is speedy and fast.
-              </p>
+              <p>Experience swift solutions and on-time project delivery.</p>
             </div>
 
             <div class="service slide-in">
-              <h4>Travel</h4>
+              <h4>Remote Collaboration</h4>
 
               <img src="media/icons/travel.png" alt="" />
 
-              <p>
-                Need to work on the go? No problem! All you need will be adapted
-                to fit your needs and function wherever you are.
-              </p>
+              <p>Collaborate effectively from anywhere with adaptable tools.</p>
             </div>
           </div>
         </div>
@@ -262,63 +261,73 @@
         <div class="text">
           <h2>Testimonials</h2>
 
-          <p>What people are saying.</p>
+          <p>
+            Discover what others have to say about my work. (this are fictional
+            bc of lack of testimonials)
+          </p>
         </div>
 
         <div class="container">
           <div class="testimonial">
             <div class="person">
               <div class="inner">
-                <img src="media/people/john.png" alt="" />
+                <img src="media/people/john.png" alt="John's Profile Picture" />
               </div>
-
               <div class="name">
-                <h4>Someone</h4>
-
-                <h5>profession</h5>
+                <h4>John Doe</h4>
+                <h5>Software Engineer</h5>
               </div>
             </div>
-
-            <p>bla bla bla put some text and change names/pfp</p>
+            <p>
+              "Ghostcar5153's coding assistance has been a game-changer for me.
+              His insights and advice have helped me overcome complex coding
+              challenges and improve my overall programming skills."
+            </p>
           </div>
 
           <div class="testimonial slide-in">
             <div class="person">
               <div class="inner">
-                <img src="media/people/jane.png" alt="" />
+                <img src="media/people/jane.png" alt="Jane's Profile Picture" />
               </div>
-
               <div class="name">
-                <h4>Someone</h4>
-
-                <h5>profession</h5>
+                <h4>Jane Smith</h4>
+                <h5>Web Developer</h5>
               </div>
             </div>
-
-            <p>bla bla bla put some text and change names/pfp</p>
+            <p>
+              "I've had the pleasure of collaborating with Ghostcar5153 on a web
+              development project. Their attention to detail and ability to find
+              efficient solutions have greatly contributed to the project's
+              success."
+            </p>
           </div>
 
           <div class="testimonial slide-in">
             <div class="person">
               <div class="inner">
-                <img src="media/people/julia.png" alt="" />
+                <img
+                  src="media/people/julia.png"
+                  alt="Julia's Profile Picture"
+                />
               </div>
-
               <div class="name">
-                <h4>Someone</h4>
-
-                <h5>profession</h5>
+                <h4>Julia Brown</h4>
+                <h5>Data Scientist</h5>
               </div>
             </div>
-
-            <p>bla bla bla put some text and change names/pfp</p>
+            <p>
+              "Ghostcar5153's programming insights have been invaluable to me in
+              my data science projects. Their deep understanding of algorithms
+              and coding principles has been a constant source of guidance."
+            </p>
           </div>
         </div>
 
         <img
           src="media/corporate-images/testimonials.png"
           class="slide-in"
-          alt=""
+          alt="Testimonials Background"
         />
       </section>
 
@@ -343,85 +352,49 @@
       <section class="values">
         <div class="left">
           <div class="value slide-in">
-            <img src="media/icons/earth.png" alt="" />
+            <img src="media/icons/earth.png" alt="Earth Icon" />
 
             <div class="text">
-              <h4>No Idea</h4>
+              <h4>Innovation</h4>
 
-              <p>bla bla bla</p>
+              <p>Constantly exploring new ideas and pushing boundaries.</p>
             </div>
           </div>
 
           <div class="value slide-in">
-            <img src="media/icons/security.png" alt="" />
+            <img src="media/icons/security.png" alt="Security Icon" />
 
             <div class="text">
               <h4>Security</h4>
 
-              <p>Secure, end-to-end encrypted data.</p>
+              <p>Ensuring your data's safety with end-to-end encryption.</p>
             </div>
           </div>
 
           <div class="value slide-in">
-            <img src="media/icons/peace-of-mind.png" alt="" />
+            <img src="media/icons/peace-of-mind.png" alt="Peace of Mind Icon" />
 
             <div class="text">
-              <h4>Peace of mind</h4>
+              <h4>Reliability</h4>
 
               <p>
-                Rest easy knowing all your problems are being taken care of.
+                Providing solutions that offer peace of mind and trust in my
+                capabilities.
               </p>
             </div>
           </div>
         </div>
 
         <div class="right slide-in">
-          <h1>Values</h1>
+          <h1>My Values</h1>
 
           <p>
-            At <b>Company</b>, we strive to deliver our best performance to you.
+            My commitment is to deliver unparalleled performance to meet your
+            needs.
           </p>
 
-          <button>Learn more</button>
+          <button>Learn More</button>
         </div>
-      </section>
-
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        id="about"
-        viewBox="0 0 1440 800"
-        width="1440"
-        height="500"
-        version="1.1"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
-          fill="#262626"
-          stroke-linecap="round"
-          stroke-linejoin="miter"
-        />
-      </svg>
-
-      <section class="about" id="about">
-        <div class="container">
-          <div class="text slide-in">
-            <h2>About us</h2>
-
-            <p>bla bla bla 1</p>
-
-            <p>bla bla bla 2</p>
-
-            <p>bla bla bla 3</p>
-          </div>
-
-          <div class="media slide-in">
-            <img src="media/corporate-images/about.png" alt="" />
-          </div>
-        </div>
-
-        <button>Learn more</button>
       </section>
     </main>
 
@@ -435,12 +408,12 @@
       version="1.1"
       preserveAspectRatio="none"
       style="
-        background-image: linear-gradient(to bottom, #1c1c1c 80%, #e79215 20%);
+        background-image: linear-gradient(to bottom, #262626 80%, #1b4f5a 20%);
       "
     >
       <path
         d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z"
-        fill=" #e79215"
+        fill=" #1b4f5a"
         stroke-linecap="round"
         stroke-linejoin="miter"
       />
@@ -557,12 +530,12 @@
       version="1.1"
       preserveAspectRatio="none"
       style="
-        background-image: linear-gradient(to top, #1c1c1c 80%, #e79215 20%);
+        background-image: linear-gradient(to top, #1c1c1c 80%, #1b4f5a 20%);
       "
     >
       <path
         d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z"
-        fill=" #e79215"
+        fill=" #1b4f5a"
         stroke-linecap="round"
         stroke-linejoin="miter"
       />
@@ -570,19 +543,20 @@
 
     <section class="finance">
       <div class="media slide-in">
-        <img src="media/corporate-images/finance.png" alt="" />
+        <img src="media/corporate-images/finance.png" alt="Finance Image" />
       </div>
 
       <div class="text slide-in">
-        <h2>Finance or something else</h2>
+        <h2>Financial Expertise for Your Success</h2>
 
-        <p>bla bla bla long</p>
+        <p>Explore my comprehensive range of financial services.</p>
 
-        <p>bla bla bla short</p>
+        <p>
+          From strategic planning to investment management, I have you covered.
+        </p>
 
         <div class="buttons">
-          <button>I don't know</button>
-          <button class="secondary">I don't know</button>
+          <button class="secondary"><a href="#contact">Contact Me</a></button>
         </div>
       </div>
     </section>
@@ -590,27 +564,27 @@
     <section class="stats" id="stats">
       <div class="container">
         <div class="stat slide-in">
-          <img src="media/icons/sales.png" alt="" />
+          <img src="media/icons/sales.png" alt="Sales Icon" />
 
-          <h4>Sales</h4>
+          <h4>Impressive Sales</h4>
 
-          <p>bla bla bla short</p>
+          <p>Driving growth with strategic sales initiatives.</p>
         </div>
 
         <div class="stat slide-in">
-          <img src="media/icons/cashback.png" alt="" />
+          <img src="media/icons/cashback.png" alt="Cashback Icon" />
 
-          <h4>Cashback</h4>
+          <h4>Generous Cashback</h4>
 
-          <p>bla bla bla short</p>
+          <p>Unlocking value with rewarding cashback offers.</p>
         </div>
 
         <div class="stat slide-in">
-          <img src="media/icons/savings.png" alt="" />
+          <img src="media/icons/savings.png" alt="Savings Icon" />
 
-          <h4>Savings</h4>
+          <h4>Smart Savings</h4>
 
-          <p>bla bla bla short</p>
+          <p>Empowering you to save wisely and achieve your goals.</p>
         </div>
       </div>
     </section>
@@ -618,19 +592,24 @@
     <section class="videoConf" id="videoConf">
       <div class="text slide-in">
         <div class="inner">
-          <h2>I don't know</h2>
+          <h2>Elevate Your Communication</h2>
         </div>
 
-        <p>bla bla bla long</p>
+        <p>
+          Experience seamless video conferencing for enhanced collaboration
+          during our time together.
+        </p>
 
         <div class="buttons">
-          <button>I don't know</button>
-
-          <button class="secondary">I don't know</button>
+          <button><a href="#contact">Plans</a></button>
+          <button class="secondary"><a href="#contact">Contact Me</a></button>
         </div>
       </div>
       <div class="media slide-in">
-        <img src="media/corporate-images/videoConf.png" alt="" />
+        <img
+          src="media/corporate-images/videoConf.png"
+          alt="Video Conference Image"
+        />
       </div>
     </section>
 
@@ -656,16 +635,15 @@
     </svg>
 
     <section class="ready" id="ready">
-      <h2>Ready to promote your business today?</h2>
+      <h2>Ready to create your business today?</h2>
 
-      <p>Start now with <b>Company</b>.</p>
+      <p>Start now with me <b>Ghostcar5153</b>.</p>
 
       <img src="media/corporate-images/ready.png" class="slide-in" alt="" />
 
       <div class="buttons">
-        <button>Let's get started</button>
-
-        <button class="secondary">View demo</button>
+        <button><a href="#contact">Plans</a></button>
+        <button class="secondary"><a href="#contact">Contact Me</a></button>
       </div>
     </section>
 
@@ -760,9 +738,8 @@
 
     <footer>
       <div class="column">
-        <h1>Company</h1>
-
-        <p>Some slogan</p>
+        <h1>Ghostcar5153</h1>
+        <p>Empowering Innovation through Code.</p>
       </div>
 
       <div class="column second">
@@ -788,8 +765,6 @@
       <div class="column">
         <h4>Product</h4>
 
-        <a href="#what"><span>What</span></a>
-
         <a href="#services"><span>Services</span></a>
 
         <a href="#pricing"><span>Pricing</span></a>
@@ -799,7 +774,7 @@
         <a href="#stats"><span>Stats</span></a>
 
         <div class="container">
-          <a href="#videoConf"><span>I don't know</span></a>
+          <a href="#videoConf"><span>Communication</span></a>
         </div>
       </div>
 
@@ -810,17 +785,11 @@
 
         <a href=""><span>Twitter</span></a>
 
-        <a href=""><span>Facebook</span></a>
+        <a href=""><span>GitHub</span></a>
 
         <a href=""><span>Instagram</span></a>
 
         <a href=""><span>LinkedIn</span></a>
-      </div>
-
-      <div class="column">
-        <button>Let's get started!</button>
-
-        <button class="secondary">I don't know</button>
       </div>
     </footer>
 
